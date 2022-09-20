@@ -21,6 +21,15 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label {
+  color: grey;
+}
+
+.label:hover {
+  color: aquamarine;
+  transform: scale(1.5)
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -145,7 +154,8 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
+  max-height: 50%;
 }
 
 .mexico-red {
@@ -165,12 +175,12 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px
 }
 
 /* For padding practice */
@@ -178,5 +188,5 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 25%;
 }
